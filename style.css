@@ -399,12 +399,12 @@ a.map-more:hover {
   top: 0;
   left: 0;
   border-bottom: none !important;
-  background-color: rgba(0,0,0, 0.4);
+  background-color: rgba(0,0,0, 0.5);
 }
 
 a.item-slide__link:hover {
-  background-color: rgba(0,0,0, 0.6);
-  transition: all 1s;
+  background-color: rgba(0,0,0, 0.65);
+  transition: all 0.3s;
   z-index: 2;
 }
 
