@@ -166,6 +166,14 @@ a.map-more:hover {
   line-height: 0;
 }
 
+.articles_list a {
+  display: block;
+}
+
+.articles_list a:hover {
+  background-color: rgba(255,255,255,0.3);
+}
+
 .articles_list>.item {
   border-bottom:1px solid #bbb;
   margin-bottom: 2rem;
@@ -252,6 +260,34 @@ a.map-more:hover {
   background: #fff;
   color: #000;
   padding: 1rem;
+}
+
+a.articles-link {
+  text-decoration: none;
+}
+
+a.articles-link:hover {
+  border: 1px solid #192e50;
+  color: #fff;
+  background-color: #192e50;
+  transition: all 0.3s;
+}
+
+.articles-link {
+  display: block;
+  margin: 70px auto 52px auto;
+  width: 200px;
+  padding: 12px 0 12px 0px;
+  text-align: center;
+  border: 1px solid #313131;
+  border-radius: 26px;
+  background-color: transparent;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #313131;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 
@@ -452,4 +488,111 @@ a.item-slide__link:hover {
 }
 .text-caption {
   font-size: 0.9rem;
+}
+
+
+/*   Footer   */
+
+footer {
+  color: white;
+  background-color: #0a1320;
+  padding-top: 80px;
+  font-size: 1.25rem;
+  font-weight: 100;
+}
+
+footer hr {
+  border: none;
+  color: white;
+  background-color: white;
+  height: 1px;
+  margin-top: 35px;
+  margin-bottom: 50px;
+}
+
+.main-footer a {
+  color: #fff;
+}
+
+.main-footer .footer-nav-right {
+  display: block;
+  text-align: right;
+}
+
+.main-footer .footer-nav-left a {
+  text-decoration: none;
+}
+
+.main-footer .footer-nav-right a {
+  text-decoration: underline;
+}
+
+.main-footer .container {
+  padding: 0;
+}
+
+.main-footer .col-lg-9,
+.main-footer .col-lg-3 {
+  padding: 0;
+}
+
+.main-footer a.feedback {
+  display: block;
+  text-align: center;
+  font-weight: 700;
+}
+
+.footer-info a.developedby {
+  display: block;
+  text-align: right;
+}
+
+@media (max-width: 768px) {
+
+  footer {
+    padding: 40px 20px 20px 20px;
+
+  }
+
+  .footer-info p.copyright {
+    display: block;
+    text-align: center;
+  }
+
+  .footer-nav .footer-nav--item {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .footer-info a.feedback {
+    display: none;
+  }
+
+  .footer-nav a.feedback {
+    margin: 20px 0;
+    font-size: 2rem;
+  }
+
+  .footer-nav {
+    font-size: 1.5rem;
+  }
+
+  footer hr {
+    width: 50%;
+    margin-top: 25px;
+    margin-bottom: 30px;
+  }
+
+  .footer-info a.developedby {
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  .footer-info a.copyright {
+    display: block;
+    text-align: center;
+    margin: 40px 20px;
+  }
 }
