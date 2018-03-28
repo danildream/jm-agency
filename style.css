@@ -91,7 +91,7 @@ float: left;
   height: 37.5rem;
   position: relative;
   width: 100%;
-  background: url(../html/img/map.png);
+  background: url(./img/map.png);
   background-size: cover;
   padding-top: 2.5rem;
 }
