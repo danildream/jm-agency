@@ -6,6 +6,7 @@ body{
 }
 header{
   padding: 3.75rem 0;
+  position: relative;
 }
 .logo img{
   width: 100%;
@@ -38,7 +39,7 @@ a.nav-item {
 }
 
 .search{
-  padding-left: .2rem;
+
 }
 .search >.btn, .search.show >.btn {
   border:0;
@@ -55,28 +56,55 @@ a.nav-item {
     box-shadow: none !important;
 }
 
-.collapse.search {
+.collapse.search,
+.collapsing.search {
     position: absolute;
     width: 100%;
+    font-size: 30px;
     float:left;
-    top: 4.5rem;
+    background-color: #f2f2f2;
     left: 0;
+    z-index: 100;
 }
-/* .collapse.search .form-control {
-    width: 96%;
+
+ .collapse.search .form-control,
+ .collapsing.search .form-control {
+    width: 100%;
     float: left;
+    background: none;
+    border: none;
+    font-size: 30px;
+    margin: 30px 0;
 }
+
+.collapse.search .container,
+.collapsing.search .container{
+  position: relative;
+}
+
 .collapse.search .btn-secondary {
     position: absolute;
-float: left;
-} */
+    float: left;
+}
+
+#collapseSearch .btn-secondary {
+    position: absolute;
+    right: 0;
+    top: 35px;
+    background: none;
+    border: none;
+}
+
+#collapseSearch .btn-secondary:not(:disabled):not(.disabled).active,
+#collapseSearch .btn-secondary:not(:disabled):not(.disabled):active {
+  background-color: white;
+  border-color: none;
+}
 
 .btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active {
-
     background-color: white;
     border-color: none;
 }
-
 
 
 .form-control:focus {

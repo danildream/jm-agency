@@ -64,14 +64,21 @@
                     </div>
                 </div>
             </div>
-            <div class="collapse search" id="collapseSearch">
-                <input class="form-control" placeholder="Введите запрос и нажмите Enter" aria-label="Search"
-                       type="text">
-                <!-- <button class="btn btn-secondary" type="submit"> <img src="img/search.png" alt=""></button> -->
-            </div>
+
         </div>
     </nav>
 </header>
+
+<div class="collapse search" id="collapseSearch">
+    <div class="container">
+        <input class="form-control" placeholder="Введите запрос и нажмите Enter" aria-label="Search"
+           type="text">
+        <button class="btn btn-secondary" type="button" data-toggle="collapse"
+                data-target="#collapseSearch" aria-expanded="false">
+            <img src="img/close.png" alt="">
+        </button>
+    </div>
+</div>
 
 <main role="main">
     <div class="map">
