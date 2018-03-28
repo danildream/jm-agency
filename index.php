@@ -90,12 +90,12 @@
              Геостратегический атлас Большого Средиземноморья
            </div>
            <a href="#" class="map-more col col-sm map_one-block "
-                style="background: url(../html/img/about.png);">
+                style="background: url(./img/about.png);">
              Подробнее <br> о проекте
            <img class="map-arrow" src="img/arrow.png" alt="">
            </a>
            <a href="#" class="map-more col col-sm map_one-block "
-                style="background: url(../html/img/atlas.png);"  >
+                style="background: url(./img/atlas.png);"  >
              Возможности <br> атласа
            <img class="map-arrow" src="img/arrow.png" alt="">
            </a>
@@ -405,16 +405,16 @@
               <div class="col-lg-9 pl-md-0 articles_list">
                 <div class="card-columns">
                   <div class="card text-center item" style="background-image:url(img/last_1.png); background-size: cover">
-                     <a class="d-flex align-items-md-end align-items-center" href="#">
-                       <div class="wrapper">
-                          <p class="title">Идеи гедонизма занимают центральное место в утилитаризме</p>
+                     <a class="d-flex" href="#">
+                       <div class="wrapper d-flex flex-column">
+                          <p class="title mb-auto mt-auto">Идеи гедонизма занимают центральное место в утилитаризме</p>
                           <p class="date">15 января</p>
                        </div>
                     </a>
                    </div>
                    <div class="card text-center item second">
                        <a class="d-flex align-items-center" href="#">
-                        <div class="wrapper">
+                        <div class="wrapper>
                            <p class="title">Идеи гедонизма занимают центральное место в утилитаризме</p>
                            <p class="date">15 января</p>
                         </div>
@@ -429,9 +429,9 @@
                       </a>
                      </div>
                    <div class="card text-center item" style="background-image:url(img/last_2.png); background-size: cover">
-                      <a class="d-flex align-items-md-end align-items-center" href="#">
-                        <div class="wrapper">
-                           <p class="title">Идеи гедонизма занимают центральное место в утилитаризме</p>
+                      <a class="d-flex align-items-stretch" href="#">
+                        <div class="wrapper d-flex flex-column">
+                           <p class="title mb-auto mt-auto">Идеи гедонизма занимают центральное место в утилитаризме</p>
                            <p class="date">15 января</p>
                         </div>
                      </a>
