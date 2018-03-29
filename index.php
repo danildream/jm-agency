@@ -448,9 +448,8 @@
                         </div>
                         <div class="card text-center item second">
                             <a class="d-flex align-items-center" href="#">
-                                <div class="wrapper>
-                           <p class=" title
-                                ">Идеи гедонизма занимают центральное место в утилитаризме</p>
+                                <div class="wrapper">
+                           <p class="title">Идеи гедонизма занимают центральное место в утилитаризме</p>
                                 <p class="date">15 января</p>
                         </div>
                         </a>
