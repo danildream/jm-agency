@@ -149,10 +149,14 @@
         column-count: 1;
     }
 
-    .card.item > a,
+    .card.item > a {
+        height: auto;
+        padding: 6rem 1rem;
+    }
+
     .card.item.second > a {
         height: auto;
-        padding: 2rem 1rem;
+        padding: 1rem 1rem;
     }
 
     .card.item.third {
