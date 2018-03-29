@@ -126,7 +126,7 @@
     <div class="articles last periods ">
         <div class="title container">
             Исторические периоды
-            <div class="line">__</div>
+            <div class="line"><hr align="left" color="red" noshade size="6" width="20" style="height: 2px"></div>
         </div>
         <!--            Desktop Slider          -->
         <div class="materials-slider">
@@ -430,7 +430,7 @@
     <div class="articles last">
         <div class="title  container">
             Последние материалы
-            <div class="line">__</div>
+            <div class="line"><hr align="left" color="red" noshade size="6" width="20" style="height: 2px"></div>
         </div>
         <div class="container">
             <div class="row">
