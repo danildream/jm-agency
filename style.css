@@ -89,7 +89,7 @@ a.nav-item {
 
 #collapseSearch .btn-secondary {
     position: absolute;
-    right: 0;
+    right: -25px;
     top: 35px;
     background: none;
     border: none;
