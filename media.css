@@ -129,6 +129,15 @@
         flex-wrap: nowrap;
     }
 
+    .title-caption {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    .text-caption {
+        font-size: 1.6rem;
+    }
+
     .articles.last > .title {
         padding-left: 1rem;
 
